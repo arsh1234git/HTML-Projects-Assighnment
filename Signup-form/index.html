@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup Form</title>
+    <style>
+        input{
+            padding:5px;
+            margin-bottom: 6px;
+            margin-top: 6px;
+            color: rgb(2, 2, 68);
+        }
+        label{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend><h2>Signup Form:</h2></legend>
+    <form>
+        <label for="user">Enter Your Username</label><br>
+        <input type="text" required placeholder="(r e q u i r e d)" name="username" id="user"><br>
+
+        <label for="password">Enter Your Password</label><br>
+        <input type="password" required placeholder="(r e q u i r e d)" name="password" id="password"><br>
+
+        <label for="email">Enter Your Email</label><br>
+        <input type="email" required placeholder="(r e q u i r e d)" name="email" id="email"><br>
+
+        <label for="phone">Enter Your Phone Number </label><br>
+        <input type="number" placeholder="(o p t i o n a l)" name="number" id="phone"><br>
+
+        <label for="dateofbirth">Enter Your DOB</label><br>
+        <input type="date" name="date" id="dateofbirth"><br>
+
+        <input type="checkbox" required name="checkbox" id="checkbox">
+        <label for="checkbox">I agree with your Terms and Conditions</label><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+</fieldset>
+</body>
+</html>
